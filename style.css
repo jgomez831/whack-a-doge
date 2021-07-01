@@ -57,7 +57,7 @@ html {
   
   .doge {
     background: url('joseph.png') bottom center no-repeat;
-    background-size: 100%;
+    background-size: 50%;
     position: absolute;
     top: 100%;
     left: 10%;
