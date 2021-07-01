@@ -18,29 +18,29 @@
   
     <div class="game">
       <div class="hole hole1">
-        <div class="mole"></div>
+        <div class="doge"></div>
       </div>
       <div class="hole hole2">
-        <div class="mole"></div>
+        <div class="doge"></div>
       </div>
       <div class="hole hole3">
-        <div class="mole"></div>
+        <div class="doge"></div>
       </div>
       <div class="hole hole4">
-        <div class="mole"></div>
+        <div class="doge"></div>
       </div>
       <div class="hole hole5">
-        <div class="mole"></div>
+        <div class="doge"></div>
       </div>
       <div class="hole hole6">
-        <div class="mole"></div>
+        <div class="doge"></div>
       </div>
     </div>
   
   <script>
     const holes = document.querySelectorAll('.hole');
     const scoreBoard = document.querySelector('.score');
-    const moles = document.querySelectorAll('.mole');
+    const doges = document.querySelectorAll('.doge');
     let lastHole;
     let timeUp = false;
     let score = 0;
@@ -85,7 +85,7 @@
       scoreBoard.textContent = score;
     }
   
-    moles.forEach(mole => mole.addEventListener('click', bonk));
+    doges.forEach(doge => doge.addEventListener('click', bonk));
   
   </script>
   </body>

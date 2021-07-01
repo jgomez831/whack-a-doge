@@ -55,7 +55,7 @@ html {
     bottom: -30px;
   }
   
-  .mole {
+  .doge {
     background: url('doge.gif') bottom center no-repeat;
     background-size: 150%;
     position: absolute;
@@ -66,7 +66,7 @@ html {
     transition:all 0.4s;
   }
   
-  .hole.up .mole {
+  .hole.up .doge {
     top: 0;
   }
   
