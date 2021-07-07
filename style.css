@@ -56,13 +56,13 @@ html {
   }
   
   .doge {
-    background: url('joseph.png') bottom center no-repeat;
+    background: url('doge.gif') bottom center no-repeat;
     background-size: 100%;
     position: absolute;
     top: 100%;
     left: 10%;
-    width: 75%;
-    height: 75%;
+    width: 130%;
+    height: 100%;
     transition:all 0.4s;
   }
   
